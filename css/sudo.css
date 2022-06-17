@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header*/
+
+header ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+label.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff5400;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+header ul {
+    float: right;
+    margin-right: 180px;
+    background-color: rgba(39, 39, 39, .15);
+    border-radius: 35px;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 7px 15px;
+}
+
+
+/*Section - Columnas de imagenes*/
+
+section {
+    background-color: wheat ;
+    width: auto;
+}
+
+.contenedor-columnas {
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+
+}
+
+.contenedor-columnas .columna {
+    width: 380px;
+    height: 218px;
+    margin: 25px;
+}
+
+.columna img {
+    border-radius: 20px;
+}
+
+
+/*Columnas de name y precio*/
+
+.informacion {
+    display: flex;
+    color: white;
+}
+
+.informacion .name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.informacion .precio {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+/*Footer - Columnas*/
+
+footer {
+    background-color: black;
+}
+
+.comentarios {
+    width: 45%;
+    margin: auto;
+    background-color: black;
+    padding: 30px;
+}
+
+.columnas-redes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+}
+
+.columnas-redes .red {
+    margin: 20px 100px 0px 100px;
+}
+
+
+/*lineas link - red*/
+
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover {
+    color: #ffa700;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.red ul li {
+    margin: 15px 0px 0px 0px;
+}
+
+
+/*img redes - red*/
+
+.face {
+    background-color: rgba(24, 119, 242, .2);
+    border-radius: 100%;
+    padding: 12px;
+    fill: #1877f2;
+}
+
+.insta {
+    background-color: rgba(189, 138, 119, .2);
+    border-radius: 100%;
+    padding: 12px;
+    fill: #bd8a77;
+}
+
+.twitter {
+    background-color: rgb(0 185 255 / 20%);
+    border-radius: 100%;
+    padding: 12px;
+    fill: #00aced;
+}
+
+.red a {
+    text-decoration: none;
+    color: white;
+}
+
+.red a:hover {
+    color: #ffa700;
+}
+
+.expressimg {
+    width: 200px;
+    height: 101px;
+}
+
+
+/*Columnas de name redes*/
+
+.column-name {
+    display: flex;
+}
+
+.name-redes {
+    margin: 15px 0px 0px 10px;
+}
